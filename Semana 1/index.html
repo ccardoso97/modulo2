@@ -1,0 +1,124 @@
+<!DOCTYPE html> <!-- Comentário --> 
+<html lang="en"> <!-- Idioma do código. Por padrão, se deixa em ingles. É possíve
+alterar. Só consultar o ISO 639-1, para pegas a abreviações de cada idioma. -->
+<head> <!--Configura o HTML (muito raro alterar algo dentro do Head)-->
+    <meta charset="UTF-8"> <!-- META é a Tag de configuração de diretrizes. 
+    O charset, configura quais caracteres vão ser lidos.
+    O UTF-8, informa que o código vai ser lido no alfabeto latino. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade
+    com o Internet Explorer. Não se altera. Em alguns casos, se deleta o código-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 
+    Faz com que a página seja suportada por todos os dispositivos (PC, Celular, etc.)-->
+    <title>Minha Primeira Página HTML</title> <!--Título que aparece na aba no navegador -->
+</head>
+<body>
+
+<!--Tags de Efeito-->
+    <div>
+        <h1>Olá, mundo!</h1>
+        <h2>Meu nome é Caio!</h2>
+        <h3>Moro em Juiz de Fora</h3>
+        <h4>Sou estudante na Blue</h4>
+        <h5>Vou ser programador</h5>
+        <h6>Esse é o primeiro dia de módulo 2</h6>
+    </div>
+    <div>Essa é minha primeira página Web.</div> <!--Esta tag é para dividir 
+    as informações. Para não ficarem "soltas no código". Não tem efeito
+    prático. É uma Tag semântica. -->
+
+<!--Tags de Quebras (<p>, <br>, <hr />)-->
+<div>
+    <p>Parágrafo 1</p> <!--Para dividir em parágrafos!-->
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+        Olá, mundo!<br><!--<br> Serve para quebrar a linha. Se coloca onde
+        você deseja fazer a quebra. Não precisa fechar esta Tag.-->
+        Olá, mundo!<hr /><!--<hr /> Serve para criar uma linha abaixo do texto.-->
+</div>
+
+<!--Tags de Estilização-->
+    <div>
+        <h1>Tags de estilização</h1>
+        <b>Tag de Negrito</b><br>
+        <strong>Tag de realce</strong><br><!--No Chrome, fica em negrito. Em alguns
+        outros, deixa em negrito + italico ou deixa a fonte maior.-->
+        <i>Tag de Itálico</i><br>
+        <b>
+            <i>
+                Negrito e itálico
+            </i>
+        </b><br>
+        <u>Tag de Sublinhar</u><br>
+        <b>
+            <i>
+                <u>
+                    Negrito, itálico e sublinhado
+                </u>
+            </i>
+        </b><br>
+        <s>Tag de corte</s><br> <!--Corta o texto no meio-->
+        <b>
+            <i>
+                <u>
+                    <s>
+                        Negrito, itálica, sublinhada e cortada
+                    </s>
+                </u>
+            </i>
+        </b><hr />
+    </div>
+
+<!--Tags de Input-->
+    <div>
+        <h1>Tags de Input</h1>
+        <input><br><!--Não precisa de fechamento.-->
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="checkbox"><br>
+        <input type="number"><br>
+        <input type="password" 
+        placeholder="Digite a senha"
+        name="senha-input"
+        >
+        <label for="senha-input">Senha</label>
+        <br>
+        <input type="email" 
+        placeholder="Digite um email"
+        name="email-input"
+        >
+        <label for="email-input">Email</label>
+        <hr />
+    </div>
+
+<!--Tags de Midia-->
+    <div>
+        <h1>Tags de Mídia</h1>
+        <h2>Imagem</h2>
+        <img alt="Gato felipe"
+        src="./assets/img/Gati.jpg"
+        width="500px"
+        height="300px"><br>
+        <h2>Video</h2>
+        <video
+        src="./assets/video/4.mp4"
+        controls
+        type="video/mp4"
+        width="500px">
+        </video><br>
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/U48d7MnF8SY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe><br> <!--iframe São tags de sites externos(Youtube, Twitter, etc...)-->
+        <h2>Audio</h2>
+        <audio
+        src="./assets/musica/audio.mp3"
+        controls
+        type="audio/mp3"
+        >
+        </audio><hr />
+    </div>
+</body>
+</html>
