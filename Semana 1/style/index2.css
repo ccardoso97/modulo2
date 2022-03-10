@@ -1,0 +1,19 @@
+footer{
+    background-color: gold;
+    width: 100%;
+    height: 100px;
+}
+span#texto-cor-azul{
+    color: blue;
+}
+span#texto-cor-vermelho{
+    color: red;
+}
+section#sessao-cor-roxa{
+    background-color: blueviolet;
+}
+aside#lado-direito{
+    background-color: chartreuse;
+    width: 100px;
+    height: 1000px;
+}
