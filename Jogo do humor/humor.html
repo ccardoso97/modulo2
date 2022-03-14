@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo do Humor</title>
-    <link rel="stylesheet" href="./humor.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/humor.css" type="text/css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     </header>
     <main>
         <div id="container-btn">
-            <button id="btn">Mudar o humor</button>
+            <button id="btn" onclick="imgchange()" type="button">Mudar o humor</button>
         </div> 
         <div id="nome">
             <h2 id="name">Chico Buarque está:</h2>
@@ -25,13 +25,10 @@
         <div id="container-image">
             <img 
             id="chico"
-            alt="chico-triste"
-            src="/Jogo do humor/assets/img/chico-tristao.png">
+            alt="chico-buarque"
+            src="./assets/img/chico-tristao.png">
         </div>
     </main>
-    <footer>
-
-    </footer>
-
+    <script src="./JS/humor.js"></script>
 </body>
 </html>
